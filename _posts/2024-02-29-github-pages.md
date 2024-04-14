@@ -6,6 +6,7 @@ categories:
   - "技术"
 tags:
   - "github"
+  - "Blog Site"
 ---
 
 ## 它能做什么

@@ -155,7 +155,7 @@ tags:
 - [神奇的费曼先生（BBC）](https://www.bilibili.com/video/BV1N64y1s7gi)
 - [《别逗了，费曼先生》（费曼自传）](https://book.douban.com/subject/19989296/)
 
-最后，想尝试一下费曼学习法又找不到只有5岁认知水平小朋友的大朋友们，欢迎前来Teach me! 这是我的邮箱：wuhulamb&qq.com（将&替换为@）
+最后，想尝试一下费曼学习法又找不到只有5岁认知水平小朋友的大朋友们，欢迎前来Teach me! 这是我的邮箱：wuhulamb&163.com（将&替换为@）
 
 ---
 

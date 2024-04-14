@@ -4,7 +4,7 @@ author:           wuhulamb
 date:             2024-01-31 17:30:00 +0800
 last_modified_at: 2024-02-01 11:29:00 +0800
 categories:
-  - "学习"
+  - "技术"
 tags:
   - "algorithmn"
   - "python"
