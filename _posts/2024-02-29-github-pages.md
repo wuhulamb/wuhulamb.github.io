@@ -15,7 +15,7 @@ tags:
 
 ## 为什么可以
 
-它默认使用[jekyll](https://jekyllrb.com/)[^1]作为static site generator来将仓库中的HTML, CSS, and JavaScript等静态文件转化成_site文件夹（我们不可见）下的站点文件（其实就是html）。我们访问网址时<!--more-->，它将对应的文件发给浏览器，然后浏览器进行渲染就成了最后看到的网页。
+它默认使用[jekyll](https://jekyllrb.com/)[^1]作为static site generator来将仓库中的HTML, CSS, and JavaScript等静态文件转化成_site文件夹（我们不可见）下的站点文件（其实就是html）。我们访问<!--more-->网址时，它将对应的文件发给浏览器，然后浏览器进行渲染就成了最后看到的网页。
 
 除了使用默认的jekyll，我们还可以通过自定义GitHub Actions workflow来创建一个build process（有待进一步探索:eyes:
 
