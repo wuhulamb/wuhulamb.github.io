@@ -126,11 +126,11 @@ function myFunction() {   // 替换段落
 
 1. 打开浏览器开发者选项
 
-![developer-tool.png](/media/image/2024/04/developer-tool.png)
+  ![developer-tool.png](/media/image/2024/04/developer-tool.png)
 
 2. 通过浏览器开发者选项查看接收到的文件（如果是空白，请刷新网页）
 
-![a-simple-webpage.png](/media/image/2024/04/a-simple-webpage.png)
+  ![a-simple-webpage.png](/media/image/2024/04/a-simple-webpage.png)
 
 **在github上搭建网站** 请看这篇博客 :point_right: [玩转 github pages](https://wuhulamb.github.io/blog/2024/02/29/github-pages.html/)
 
