@@ -76,6 +76,7 @@ header:
 点击 :point_right: [https://wuhulamb.github.io/a-simple-webpage/](https://wuhulamb.github.io/a-simple-webpage/) 查看示例
 
 *文件结构*
+
     .
     ├── index.html
     └── assets
@@ -130,6 +131,8 @@ function myFunction() {   // 替换段落
   <img src="{{ site.url }}{{ site.baseurl }}/media/image/2024/04/a-simple-webpage.png" alt="a-simple-webpage.png">
   <figcaption>通过浏览器开发者选项查看接收到的文件（如果是空白，请刷新网页）</figcaption>
 </figure> 
+
+**在github上搭建网站** 请看这篇博客 :point_right: [玩转 github pages](https://wuhulamb.github.io/blog/2024/02/29/github-pages.html/)
 
 ### 网站
 

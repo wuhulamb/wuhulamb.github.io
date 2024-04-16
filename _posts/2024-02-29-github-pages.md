@@ -5,8 +5,7 @@ date:             2024-02-29 16:40:00 +0800
 categories:
   - "技术"
 tags:
-  - "github"
-  - "Blog Site"
+  - "github pages"
 ---
 
 ## 它能做什么
