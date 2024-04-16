@@ -73,7 +73,7 @@ header:
 
 **代码示例**
 
-点击 :point_right: [https://wuhulamb.github.io/a-simple-webpage/](https://wuhulamb.github.io/a-simple-webpage/) 查看示例
+点击 :point_right: [https://wuhulamb.github.io/a-simple-webpage/](https://wuhulamb.github.io/a-simple-webpage/) 查看示例（部分代码参考自互联网，详见[引用](#引用)）
 
 *目录结构*
 
@@ -124,15 +124,13 @@ function myFunction() {   // 替换段落
 
 **实践验证**
 
-<figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/media/image/2024/04/developer-tool.png" alt="developer-tool.png">
-  <figcaption>打开浏览器开发者选项</figcaption>
-</figure> 
+1. 打开浏览器开发者选项
 
-<figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/media/image/2024/04/a-simple-webpage.png" alt="a-simple-webpage.png">
-  <figcaption>通过浏览器开发者选项查看接收到的文件（如果是空白，请刷新网页）</figcaption>
-</figure> 
+![developer-tool.png](/media/image/2024/04/developer-tool.png)
+
+2. 通过浏览器开发者选项查看接收到的文件（如果是空白，请刷新网页）
+
+![a-simple-webpage.png](/media/image/2024/04/a-simple-webpage.png)
 
 **在github上搭建网站** 请看这篇博客 :point_right: [玩转 github pages](https://wuhulamb.github.io/blog/2024/02/29/github-pages.html/)
 
@@ -144,4 +142,6 @@ function myFunction() {   // 替换段落
 
 ## 引用
 
-- [What is the difference between webpage, website, web server, and search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)
+1. [What is the difference between webpage, website, web server, and search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)
+2. [JavaScript Example](https://www.w3schools.com/js/js_whereto.asp)
+3. [CSS Example](https://www.w3schools.com/css/css_howto.asp)
