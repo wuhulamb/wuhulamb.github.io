@@ -1,53 +1,142 @@
 ---
-title:            "什么是网站"
+title:            "网站，网站，还是网站"
 author:           wuhulamb
 date:             2024-04-14 21:30:00 +0800
+last_modified_at: 2024-04-16 17:30:00 +0800
 categories:
   - "技术"
 tags:
-  - "数据爬取"
-  - "Blog Site"
+  - "website"
+  - "github pages"
 header:
   overlay_image:           "/assets/hero-img/posts/mountain.jpg"
 ---
 
-所有上过网的人应该都用过浏览器，那么当我们在浏览器中，点进了一个网站，看到了一个页面，这中间究竟发生了什么？浏览器为什么可以进入不同的网站，显示不同的页面？而像微信、腾讯会议或者原神这些同样是联网的应用却<!--more-->只能在某几个页面上换来换去？要想更深入地弄清这些问题，我们需要从普通的使用者变为专业的开发者，深入问题的内部窥视一番。
+可能所有人都使用过浏览器，除非你没上过网。但是你真的知道浏览器是如何工作的吗？为什么可以使用浏览器听音乐、看视频甚至玩游戏、购物？另一边，网站又是如何向我们提供这些服务的？也许你<!--more-->会说，我只是一个普通的用户，干嘛一定要去了解这些呢。如果你遇到过讨厌的广告亦或是登录即可复制（一定遇到过的，对吧），那就来看一看这篇博客吧。本篇博客将介绍~~花里胡哨~~炫丽多彩的~~广告~~网站是如何呈现在我们面前的，以及如何做一个最简单的网站 :pinching_hand: 。（连网站都会做，难道还怕登录即可复制这种东西吗 :poop: ）
 
-## 客户端-浏览器
+## User
 
-顾名思义，客户端就是给普通的客户使用的软件。浏览器就是一个客户端，我们通过浏览器访问网站。而访问就是向网站所在服务器发送请求，网站收到请求后，再将数据发送给浏览器，浏览器接收后进行解析渲染，最后呈现在我们面前。
+作为用户，你分得清浏览器和搜索引擎吗？
 
-## 服务端-服务器（网站）
+### 浏览器
 
-服务端就是提供服务的一方。服务器其实也是一台计算机，当接收到浏览器的请求时，它会将请求的数据发给浏览器。
+我们每天都在上网，而提到上网就离不开浏览器。可能许多人会说，自己几乎不用浏览器，也很少看网站。那是因为许多软件都内置了自己的浏览器，只要你点开了一个链接，便是在使用浏览器访问网站。这个链接对应的网址叫做**统一资源定位符**（Universal Resource Locator），简称**URL**，用来确定要访问的是哪个网站。
 
-## 网页
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/media/image/2024/04/browser-and-website.jpg" alt="browser-and-website.jpg">
+  <figcaption>浏览器和网站的默契</figcaption>
+</figure> 
 
-一个网页只有一个HTML文件，它会调用CSS或者JavaScript文件，具体分工见下方。
+当我们在浏览器的网址栏输入一个URL，并按下回车键时，其实就是在向网站发送请求。网站收到请求后，会将数据发送给浏览器，浏览器接收后再进行解析渲染，最后将五彩缤纷的内容呈现在我们面前。
+
+### 搜索引擎
+
+直接输入URL访问网站虽然很酷，但是更多的时候我们会使用搜索引擎找到我们需要的东西。比如，[谷歌](https://www.google.com)、[必应](https://www.bing.com/)，还有[某度](https://www.baidu.com/)。这些搜索引擎也是网站，是比较特殊的网站，通过它们我们可以轻松找到我们需要的网页。
+
+## Developer
+
+作为开发者，如何搭建一个网站？
+
+### 服务器
+
+许多文章或是新闻中都会说到服务器，那服务器到底是什么呢？
+
+<figure class="half">
+    <img src="{{ site.url }}{{ site.baseurl }}/media/image/2024/04/sever-cluster.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/media/image/2024/04/sever-micro.jpg">
+    <figcaption>集群服务器与微型服务器</figcaption>
+</figure>
+
+可能许多人印象中的服务器是一个庞然大物，但是它也可以只是一块集成了CPU、GPU、内存、显卡的一块计算卡，说到底一台服务器只是一台性能不错的计算机。唯一的区别在于服务器作为服务的提供者，需要时时刻刻响应众多客户端的请求，并作出反应，而一台普通的计算机可以断网，可以关机，可以 ... :sunglasses:
+
+网站服务器同样如此，在接收到浏览器的请求时，它需要作出响应，将请求的数据发给浏览器。
+
+### 网页
+
+一个网页只有一个HTML文件，它会调用CSS、JavaScript或者其他media文件（如音视频文件），经过渲染最后呈现在我们面前。
 
 - **HTML（骨架）**
 
-  决定网页的元素、内容、布局，就像是建筑物的脚手架
+  决定网页的元素、内容、布局等
 
 - **CSS（修饰）**
 
-  对网页元素的颜色、形状等属性进行解释，就像一个人不同的穿搭
+  对网页元素的颜色、形状等属性进行定义
 
 - **JavaScript（操作）**
 
-  负责网页的动画、网友的评论等，主要是与浏览器的交互，就像一种应激反应
+  与页面的交互，如动画展示、点击反馈等（许多广告以及登录即可复制都是通过js实现的）
 
-## 网站
+- **media（文件）**
+  
+  嵌入媒体文件，如图像、音频、视频等
 
-> 一个网站就是服务器上的一个文件夹，里面有各种HTML、CSS、JavaScript文件，这些文件相互关联，存在各种调用关系。
+**代码示例**
 
-我们准备好这些文件，开启一个服务（意味着也开启了一个端口[^1]），允许其他的计算机访问这个文件夹里的内容，此时一个网站也就搭建好了。
+点击 :point_right: [https://wuhulamb.github.io/a-simple-webpage/](https://wuhulamb.github.io/a-simple-webpage/) 查看示例
 
-## 后续
+*文件结构*
+    .
+    ├── index.html
+    └── assets
+        ├── css
+        │   └── main.css
+        └── js
+            └── main.js
 
-- 知道什么是网站后，数据爬取就不再那么神秘了，不过是把浏览器渲染的数据保存下来而已
-- 而博客网站的搭建似乎也更近了一步
+```html
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>原来你在这儿！</title>
+        <link rel="stylesheet" href="assets/css/main.css">   <!-- 嵌入main.css -->
+        <script src="assets/js/main.js" defer></script>      <!-- 嵌入main.js -->
+    </head>
+    <body>
+        <h1>Halo</h1>                  <!-- 1级标题 -->
+        <p id="demo">你在哪儿？</p>     <!-- 段落 -->
+        <button type="button" onclick="myFunction()">Click me</button>  <!-- 按钮 -->
+    </body>
+</html>
+```
 
----
+```css
+/* assets/css/main.css */
+body {
+  background-color: lightblue;  /* 背景颜色 */
+}
 
-[^1]: 一台计算机上有许多开放的服务，如微信、网易云音乐或者腾讯会议等，端口就是这些服务与外界或者与本机进行通信的窗口
+h1 {
+  color: navy;                  /* 标题颜色 */
+}
+```
+
+```js
+// assets/js/main.js
+function myFunction() {   // 替换段落
+  document.getElementById("demo").innerHTML = "我在这儿！";
+}
+```
+
+**实践验证**
+
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/media/image/2024/04/developer-tool.png" alt="developer-tool.png">
+  <figcaption>打开浏览器开发者选项</figcaption>
+</figure> 
+
+<figure class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/media/image/2024/04/a-simple-webpage.png" alt="a-simple-webpage.png">
+  <figcaption>通过浏览器开发者选项查看接收到的文件（如果是空白，请刷新网页）</figcaption>
+</figure> 
+
+### 网站
+
+网站是互相链接的网页集合，这些网页共享一个域名（例如本站的各个页面都有wuhulamb.github.io作为前缀）。每个网页又是由一个HTML，以及CSS、JavaScript、media等文件共同组织形成的。所以，可以认为，一个网站就是服务器上的一个文件夹，里面有各种HTML、CSS、JavaScript或者media文件，这些文件相互关联，由各个HTML文件组织调用，最终经过浏览器的解析渲染呈现在了我们眼前。
+
+至于浏览器如何向网站发出请求，以及服务器如何作出回应发送数据，涉及到计算机网络基本原理相关内容，与本篇博客关系不大，故不再展开。（有时间的话可能会再写一篇相关的博客 :poop:
+
+## 引用
+
+- [What is the difference between webpage, website, web server, and search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)
