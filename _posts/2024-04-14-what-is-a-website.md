@@ -75,15 +75,17 @@ header:
 
 点击 :point_right: [https://wuhulamb.github.io/a-simple-webpage/](https://wuhulamb.github.io/a-simple-webpage/) 查看示例
 
-*文件结构*
+*目录结构*
 
-    .
-    ├── index.html
-    └── assets
-        ├── css
-        │   └── main.css
-        └── js
-            └── main.js
+```text
+.
+├── index.html
+└── assets
+    ├── css
+    │   └── main.css
+    └── js
+        └── main.js
+```
 
 ```html
 <!-- index.html -->
