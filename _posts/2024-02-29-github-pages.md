@@ -1,9 +1,9 @@
 ---
 title:            "玩转github pages"
 author:           wuhulamb
-date:             2024-02-29 16:40:00 +0800
+date:             "2024-02-29 16:40:00 +0800"
 categories:
-  - "技术"
+  - "计算机"
 tags:
   - "github pages"
 ---
