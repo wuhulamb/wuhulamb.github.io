@@ -1,8 +1,8 @@
 ---
-title:            "网站的背后..."
+title:            "网站的背后是 . . ."
 author:           wuhulamb
 date:             "2024-04-14 21:30:00 +0800"
-last_modified_at: "2024-04-16 17:30:00 +0800"
+last_modified_at: "2024-05-12 15:00:00 +0800"
 categories:
   - "计算机"
 tags:
@@ -12,7 +12,7 @@ header:
   overlay_image:           "/assets/hero-img/posts/mountain.jpg"
 ---
 
-可能所有人都使用过浏览器，除非你没上过网。但是你真的知道浏览器是如何工作的吗？为什么可以使用浏览器听音乐、看视频甚至玩游戏、购物？另一边，网站又是如何向我们提供这些服务的？也许你<!--more-->会说，我只是一个普通的用户，干嘛一定要去了解这些呢。如果你遇到过讨厌的广告亦或是登录即可复制（一定遇到过的，对吧），那就来看一看这篇博客吧。本篇博客将介绍~~花里胡哨~~炫丽多彩的~~广告~~网站是如何呈现在我们面前的，以及如何做一个最简单的网站 :pinching_hand: 。（连网站都会做，难道还怕登录即可复制这种东西吗 :poop: ）
+几乎所有人都使用过浏览器，但你真的知道浏览器是如何工作的吗？为什么可以使用浏览器听音乐、看视频甚至玩游戏、购物？另一边，网站又是如何向我们提供这些服务的？本文将揭露网站背后的真相，还将还原一个最简单的网站<!--more--> :pinching_hand: 。
 
 ## User
 
@@ -142,6 +142,6 @@ function myFunction() {   // 替换段落
 
 ## 引用
 
-1. [What is the difference between webpage, website, web server, and search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)
-2. [JavaScript Example](https://www.w3schools.com/js/js_whereto.asp)
-3. [CSS Example](https://www.w3schools.com/css/css_howto.asp)
+1. [What is the difference between webpage, website, web server, and search engine?（英文）](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines)
+2. [JavaScript Example（英文）](https://www.w3schools.com/js/js_whereto.asp)
+3. [CSS Example（英文）](https://www.w3schools.com/css/css_howto.asp)
