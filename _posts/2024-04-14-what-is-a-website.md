@@ -4,7 +4,7 @@ author:           wuhulamb
 date:             "2024-04-14 21:30:00 +0800"
 last_modified_at: "2024-05-12 15:00:00 +0800"
 categories:
-  - "计算机"
+  - "理论学习"
 tags:
   - "website"
   - "github pages"
