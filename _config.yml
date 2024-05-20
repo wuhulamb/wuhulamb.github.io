@@ -232,6 +232,11 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  excerpts:
+    output: true
+    permalink: /read/:year/:month/:day/:title/
+
 # Defaults
 defaults:
   # _posts
@@ -249,6 +254,19 @@ defaults:
       toc: true
       toc_sticky: true
       toc_label: "Table of Contents"
+  # _excerpts
+  - scope:
+      path: ""
+      type: excerpts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      show_date: true
+      toc: false
   # _pages
   - scope:
       path: "_pages"

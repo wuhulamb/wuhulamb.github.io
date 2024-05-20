@@ -2,6 +2,8 @@
 main:
   - title: "Blog"
     url: /blog/
+  - title: "Read"
+    url: /read/
   - title: "Motto"
     url: /motto/
   - title: "About"
