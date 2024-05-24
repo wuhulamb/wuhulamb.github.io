@@ -3,7 +3,7 @@
 wuhulamb:
   name        : "wuhulamb"
   bio         : "Everyday is a new day."
-  avatar      : "/media/favicon/android-chrome-512x512.png"
+  avatar      : "media/favicon/android-chrome-192x192.png"
   location    : "Wuhu, Anhui"
   links:
     - label: "Email"
