@@ -1,6 +1,6 @@
 ---
 title:            "网站的背后是 . . ."
-author:           wuhulamb
+author:           "wuhulamb"
 date:             "2024-04-14 21:30:00 +0800"
 last_modified_at: "2024-05-12 15:00:00 +0800"
 categories:
@@ -9,7 +9,7 @@ tags:
   - "website"
   - "github pages"
 header:
-  overlay_image:           "/assets/hero-img/posts/mountain.jpg"
+  overlay_image:           "assets/hero-img/posts/mountain.jpg"
 ---
 
 几乎所有人都使用过浏览器，但你真的知道浏览器是如何工作的吗？为什么可以使用浏览器听音乐、看视频甚至玩游戏、购物？另一边，网站又是如何向我们提供这些服务的？本文将揭露网站背后的真相，还将还原一个最简单的网站<!--more--> :pinching_hand: 。
@@ -23,7 +23,7 @@ header:
 我们每天都在上网，而提到上网就离不开浏览器。可能许多人会说，自己几乎不用浏览器，也很少看网站。那是因为许多软件都内置了自己的浏览器，只要你点开了一个链接，便是在使用浏览器访问网站。这个链接对应的网址叫做**统一资源定位符**（Universal Resource Locator），简称**URL**，用来确定要访问的是哪个网站。
 
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/media/image/2024/04/browser-and-website.jpg" alt="browser-and-website.jpg">
+  <img src="{{ 'media/image/2024/04/browser-and-website.jpg' | relative_url }}" alt="browser-and-website.jpg">
   <figcaption>浏览器和网站的默契</figcaption>
 </figure> 
 
@@ -42,8 +42,8 @@ header:
 许多文章或是新闻中都会说到服务器，那服务器到底是什么呢？
 
 <figure class="half">
-    <img src="{{ site.url }}{{ site.baseurl }}/media/image/2024/04/sever-cluster.jpg">
-    <img src="{{ site.url }}{{ site.baseurl }}/media/image/2024/04/sever-micro.jpg">
+    <img src="{{ 'media/image/2024/04/sever-cluster.jpg' | relative_url }}">
+    <img src="{{ 'media/image/2024/04/sever-micro.jpg' | relative_url }}">
     <figcaption>集群服务器与微型服务器</figcaption>
 </figure>
 
@@ -126,13 +126,13 @@ function myFunction() {   // 替换段落
 
 <p>1. 打开浏览器开发者选项</p>
 
-![developer-tool.png](/media/image/2024/04/developer-tool.png)
+![developer-tool.png]({{ 'media/image/2024/04/developer-tool.png' | relative_url }})
 
 <p>2. 通过浏览器开发者选项查看接收到的文件（如果是空白，请刷新网页）</p>
 
-![a-simple-webpage.png](/media/image/2024/04/a-simple-webpage.png)
+![a-simple-webpage.png]({{ 'media/image/2024/04/a-simple-webpage.png' | relative_url }})
 
-**在github上搭建网站** 请看这篇博客 :point_right: [玩转 github pages](https://wuhulamb.github.io/blog/2024/02/29/github-pages.html/)
+**在github上搭建网站** 请看这篇博客 :point_right: [玩转 github pages]({{ 'blog/2024/02/29/github-pages/' | relative_url }})
 
 ### 网站
 

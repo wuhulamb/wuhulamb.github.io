@@ -1,6 +1,6 @@
 ---
 title:            "递归算法"
-author:           wuhulamb
+author:           "wuhulamb"
 date:             "2024-01-31 17:30:00 +0800"
 last_modified_at: "2024-02-01 11:29:00 +0800"
 categories:
@@ -13,7 +13,7 @@ tags:
 
 先看一个简单的例子：求 n!<!--more-->
 
-![factorial-recursion.jpg](/media/image/2024/01/factorial-recursion.jpg)  
+![factorial-recursion.jpg]({{ 'media/image/2024/01/factorial-recursion.jpg' | relative_url }})  
 :arrow_up: 通过递归计算 5! 
 
 ```python
@@ -85,7 +85,7 @@ def permutation(data: list, n: int) -> list:
 - 只能挪动每根柱子最上面的圆盘
 - **小圆盘必须在大圆盘上面**
 
-![Tower-of-Hanoi.jpg](/media/image/2024/01/Tower-of-Hanoi.jpg "Tower-of-Hanoi")
+![Tower-of-Hanoi.jpg]({{ 'media/image/2024/01/Tower-of-Hanoi.jpg' | relative_url }} "Tower-of-Hanoi")
 
 如果体会不深，可以玩一下:point_right: [汉诺塔游戏](https://www.saolei.games/h.html)
 
@@ -117,7 +117,7 @@ def combination(data: list, n: int) -> list:
 
 汉诺塔问题递归解决的基本思想是先将Start(Source)处的n - 1个盘子挪到Middle(Auxiliary)，再将n号盘子挪到Goal(Destination)，最后再将n - 1个盘子从Middle(Auxiliary)挪到Goal(Destination)。
 
-![Tower-of-Hanoi-recursion.png](/media/image/2024/01/Tower-of-Hanoi-recursion.png)
+![Tower-of-Hanoi-recursion.png]({{ 'media/image/2024/01/Tower-of-Hanoi-recursion.png' | relative_url }})
 
 ```python
 # Python 3.8.8

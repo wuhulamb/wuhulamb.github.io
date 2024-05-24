@@ -1,6 +1,6 @@
 ---
 title:            "玩转GitHub Pages"
-author:           wuhulamb
+author:           "wuhulamb"
 date:             "2024-02-29 16:40:00 +0800"
 categories:
   - "技术应用"
@@ -29,18 +29,18 @@ tags:
 
 这里的xxx为你的username，例如我的是wuhulamb
 
-![github-create-a-repository.png](/media/image/2024/02/github-create-a-repository.png)
+![github-create-a-repository.png]({{ 'media/image/2024/02/github-create-a-repository.png' | relative_url }})
 
 后面的选项默认即可
 
 ### 第三步：设置仓库
 
-![github-pages-setting.png](/media/image/2024/02/github-pages-setting.png)  
+![github-pages-setting.png]({{ 'media/image/2024/02/github-pages-setting.png' | relative_url }})  
 这里以普通仓库为例进行设置，xxx.github.io同理
 
 ### 第四步：加入一个index.html文件
 
-![github-add-file.png](/media/image/2024/02/github-add-file.png)  
+![github-add-file.png]({{ 'media/image/2024/02/github-add-file.png' | relative_url }})  
 比较原始的添加文件的方法，使用git会更加方便
 
 html示例

@@ -1,13 +1,13 @@
 ---
 title:            "2024春季学期教务处勤工助学岗位招聘"
-author:           wuhulamb
-date:             2024-02-26 14:30:00 +0800
+author:           "wuhulamb"
+date:             "2024-02-26 14:30:00 +0800"
 categories:
   - "教务处勤工助学"
 tags:
   - "work"
 header:
-  overlay_image:           "/assets/hero-img/posts/mysterious.jpg"
+  overlay_image:           "assets/hero-img/posts/mysterious.jpg"
 ---
 
 > 转发自...（内部通知），最终解释权归教务处所有。
@@ -60,5 +60,5 @@ header:
 
 ### 附件
 
-- [附件1.兰州大学教务处2024年勤工助学岗位信息表.xlsx](/media/download/N20240226recruit-information.xlsx)
-- [附件2.兰州大学教务处勤工助学申请表.docx](/media/download/N20240226application-form.docx)
+- [附件1.兰州大学教务处2024年勤工助学岗位信息表.xlsx]({{ 'media/download/N20240226recruit-information.xlsx' | relative_url }})
+- [附件2.兰州大学教务处勤工助学申请表.docx]({{ 'media/download/N20240226application-form.docx' | relative_url }})

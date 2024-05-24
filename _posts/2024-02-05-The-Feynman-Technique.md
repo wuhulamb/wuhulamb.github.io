@@ -1,7 +1,7 @@
 ---
 title:            "译：费曼学习法"
-author:           wuhulamb
-date:             2024-02-05 11:26:00 +0800
+author:           "wuhulamb"
+date:             "2024-02-05 11:26:00 +0800"
 categories:
   - "翻译"
 tags:
@@ -15,8 +15,10 @@ tags:
 
 理查德·费曼教给了我们一个有助于提高效率的<!--more-->宝藏学习法。了解著名的费曼学习法，然后更加高效地学习吧！
 
-![the-feynman-technique-ideas.webp](/media/image/2024/02/the-feynman-technique-ideas.webp)  
-将你的想法写下来，这会帮助你思考，让你可以发现自己的知识盲区
+<figure class="align-center">
+  <img src="{{ 'media/image/2024/02/the-feynman-technique-ideas.webp' | relative_url }}" alt="the-feynman-technique-ideas.webp">
+  <figcaption>将你的想法写下来，这会帮助你思考，让你可以发现自己的知识盲区</figcaption>
+</figure> 
 
 在本篇文章中，我会介绍著名的费曼学习法——一个由[理查德·费曼](https://en.wikipedia.org/wiki/Richard_Feynman)创造并使用的学习方法和思维模型[^1]。
 
@@ -43,8 +45,10 @@ tags:
 - 明确盲区
 - 简化问题
 
-![the-feynman-technique-chart-min.png](/media/image/2024/02/the-feynman-technique-chart-min.png)  
-（上面的流程图是搜索费曼相关图片时发现的，原文中并没有）
+<figure class="align-center">
+  <img src="{{ 'media/image/2024/02/the-feynman-technique-chart-min.png' | relative_url }}" alt="the-feynman-technique-chart-min.png">
+  <figcaption>上面的流程图是搜索费曼相关图片时发现的，感觉很直观就加了进来</figcaption>
+</figure> 
 
 ### 第一步：学习
 
@@ -56,8 +60,10 @@ tags:
 
 先尽可能地把事情拆解，再以合乎逻辑的方式重新组织这些知识。在想法和概念之间建立关联。例如，使用[卡片盒笔记法](https://www.dsebastien.net/2022-05-01-zettelkasten-method/)。
 
-![the-feynman-technique-ideas-flying.webp](/media/image/2024/02/the-feynman-technique-ideas-flying.webp)  
-不要让你的想法在脑子里游荡，如果你真的想学习并获得更多知识，你需要将这些想法写下来，这是做到清晰有序的关键
+<figure class="align-center">
+  <img src="{{ 'media/image/2024/02/the-feynman-technique-ideas-flying.webp' | relative_url }}" alt="the-feynman-technique-ideas-flying.webp">
+  <figcaption>不要让你的想法在脑子里游荡，如果你真的想学习并获得更多知识，你需要将这些想法写下来，这是做到清晰有序的关键</figcaption>
+</figure> 
 
 ### 第二步：教授
 
@@ -69,8 +75,10 @@ tags:
 
 这一步充满了挑战，它会带你走出舒适圈。它会揭露你的不完美，你的缺点，并且暴露你仍然不清楚或者不知道的东西，但它是一次难得的锻炼。这总是一场双赢的买卖，你所教的人学到了一些新的东西，而你也找到了需要进一步加深理解的地方。
 
-![the-feynman-technique-teach.webp](/media/image/2024/02/the-feynman-technique-teach.webp)  
-教授是发现知识盲区的最好办法
+<figure class="align-center">
+  <img src="{{ 'media/image/2024/02/the-feynman-technique-teach.webp' | relative_url }}" alt="the-feynman-technique-teach.webp">
+  <figcaption>教授是发现知识盲区的最好办法</figcaption>
+</figure>
 
 ### 第三步：明确盲区
 
@@ -78,8 +86,10 @@ tags:
 
 给这些知识盲区列一个清单，想明白你要弄清楚什么，以及为什么要弄清楚它。再给它们排一个先后顺序，最大限度地提高填补盲区的效率。某个知识的盲区越大，重要程度越高，你填补它的价值就越高。
 
-![the-feynman-technique-knowledge-gap.webp](/media/image/2024/02/the-feynman-technique-knowledge-gap.webp)  
-明确你的知识盲区（knowledge gap），从而明晰下一步你要学习什么
+<figure class="align-center">
+  <img src="{{ 'media/image/2024/02/the-feynman-technique-knowledge-gap.webp' | relative_url }}" alt="the-feynman-technique-knowledge-gap.webp">
+  <figcaption>明确你的知识盲区（knowledge gap），从而明晰下一步你要学习什么</figcaption>
+</figure>
 
 ### 第四步：简化问题
 
@@ -132,25 +142,33 @@ tags:
 
 先看几张图片叭。
 
-![the-feynman-technique-drum.jpg](/media/image/2024/02/the-feynman-technique-drum.jpg)  
-费曼在演奏邦戈鼓
+<figure class="align-center">
+  <img src="{{ 'media/image/2024/02/the-feynman-technique-drum.jpg' | relative_url }}" alt="the-feynman-technique-drum.jpg">
+  <figcaption>费曼在演奏邦戈鼓</figcaption>
+</figure>
 
-![the-feynman-technique-mischievous.png](/media/image/2024/02/the-feynman-technique-mischievous.png)  
-费曼永远是照片中最显眼的那个
+<figure class="align-center">
+  <img src="{{ 'media/image/2024/02/the-feynman-technique-mischievous.png' | relative_url }}" alt="the-feynman-technique-mischievous.png">
+  <figcaption>费曼永远是照片中最显眼的那个</figcaption>
+</figure>
 
-![the-feynman-technique-1965-cern.jpg](/media/image/2024/02/the-feynman-technique-1965-cern.jpg)  
-费曼的物理学讲座非常有趣，有很多生动的比喻
+<figure class="align-center">
+  <img src="{{ 'media/image/2024/02/the-feynman-technique-1965-cern.jpg' | relative_url }}" alt="the-feynman-technique-1965-cern.jpg">
+  <figcaption>费曼的物理学讲座非常有趣，有很多生动的比喻</figcaption>
+</figure>
 
-![the-feynman-technique-diagrams.png](/media/image/2024/02/the-feynman-technique-diagrams.png)  
-费曼创造性地提出了费曼图（Feynman Diagrams），极大地降低了计算量子场中基本粒子相互作用概率的难度
+<figure class="align-center">
+  <img src="{{ 'media/image/2024/02/the-feynman-technique-diagrams.png' | relative_url }}" alt="the-feynman-technique-diagrams.png">
+  <figcaption>费曼创造性地提出了费曼图（Feynman Diagrams），极大地降低了计算量子场中基本粒子相互作用概率的难度</figcaption>
+</figure>
 
 怎么样？是不是有点想了解一下这位“科学顽童”了？
 
 > 费曼身上具有一种奇特的魔力。第一次遇到费曼的人马上会为他的才华所倾倒，同时又会对他的幽默感到吃惊。物理学家弗里曼·戴森起初对费曼的印象是：“半是天才，半是滑稽演员。”后来，当戴森对费曼非常了解之后，他把原来的评价修改为“完全是天才，完全是滑稽演员。” —— 引自互联网
 
-可能我们每个人漫长的一生中总会有几个有趣的故事，有的人可能有十几个，而费曼有数百个。这些故事生动有趣，甚至有点匪夷所思，但是不论是哪个故事，你总能感受到费曼先生的“调皮可爱”，感受到一种旺盛的生命力。这是对生活无比热爱的人才会有的:stuck_out_tongue_winking_eye:。
+可能我们每个人漫长的一生中总会有几个有趣的故事，有的人可能有十几个，而费曼有数百个。这些故事生动有趣，甚至有点匪夷所思，但是不论是哪个故事，你总能感受到费曼先生的“调皮可爱”，感受到一种旺盛的生命力。这是对生活无比热爱的人才会有的 :stuck_out_tongue_winking_eye: 。
 
-有兴趣的读者可以戳:point_down:了解更多
+有兴趣的读者可以戳 :point_down: 了解更多
 
 - [神奇的费曼先生（BBC）](https://www.bilibili.com/video/BV1N64y1s7gi)
 - [《别逗了，费曼先生》（费曼自传）](https://book.douban.com/subject/19989296/)
@@ -159,8 +177,8 @@ tags:
 
 ---
 
-[^1]: 指对事物如何运作的理解，下文同此，详见:point_right: [思维模型：如何训练你的大脑以新的方式思考（英文）](https://jamesclear.com/feynman-mental-models)
+[^1]: 指对事物如何运作的理解，下文同此，详见 :point_right: [思维模型：如何训练你的大脑以新的方式思考（英文）](https://jamesclear.com/feynman-mental-models)
 [^2]: 括号内为译者自己添加的内容，目的是更加清晰准确地表述原文
-[^3]: 计算机术语，指重复某一过程，每一次迭代得到的结果会作为下一次迭代的初始值，详见:point_right: [百度百科](https://baike.baidu.com/item/%E8%BF%AD%E4%BB%A3%E7%AE%97%E6%B3%95/54579021)
+[^3]: 计算机术语，指重复某一过程，每一次迭代得到的结果会作为下一次迭代的初始值，详见 :point_right: [百度百科](https://baike.baidu.com/item/%E8%BF%AD%E4%BB%A3%E7%AE%97%E6%B3%95/54579021)
 [^4]: 相关书籍链接替换为了豆瓣中对应的中文版链接，其余链接均保持原样（正文中结论部分《将爱传递下去》替换为了豆瓣电影链接）
 [^5]: 1965年费曼（47岁）因在量子电动力学方面的贡献与施温格、朝永振一郎一同获得诺贝尔物理奖
