@@ -15,7 +15,7 @@ theme                  : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "zh-CN"
+locale                   : "en-US"
 title                    : "wuhulamb"
 title_separator          : "-"
 subtitle                 : "记录·分享·表达" # site tagline that appears below site title in masthead
