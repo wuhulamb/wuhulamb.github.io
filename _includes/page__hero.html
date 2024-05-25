@@ -23,7 +23,7 @@
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper" style="{% if page.my-wrapper-padding-top %}padding-top: {{ page.my-wrapper-padding-top }};{% endif %}">
-      {% if page.my-avatar %}<img src="/media/favicon/android-chrome-512x512.png" alt="wuhulamb" class="avatar" itemprop="image">{% endif %}
+      {% if page.my-avatar %}<img src="{{ page.my-avatar }}" alt="wuhulamb" class="avatar" itemprop="image">{% endif %}
       <h1 id="page-title" class="page__title" itemprop="headline" style="{% if page.my-title-size %}font-size: {{ page.my-title-size }};{% endif %}">
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
