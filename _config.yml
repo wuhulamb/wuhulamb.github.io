@@ -15,7 +15,7 @@ theme                  : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 title                    : "wuhulamb"
 title_separator          : "-"
 subtitle                 : "记录·分享·表达" # site tagline that appears below site title in masthead
@@ -267,6 +267,7 @@ defaults:
       related: false
       show_date: true
       toc: false
+      my-paragraph: true
   # _pages
   - scope:
       path: "_pages"
@@ -288,4 +289,5 @@ defaults:
         overlay_image:           "/assets/hero-img/posts/default-sunrise-fox.jpg"
         show_overlay_excerpt:    false
       mathjax:                   false
+      my-paragraph:              false
 
