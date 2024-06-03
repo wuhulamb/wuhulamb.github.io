@@ -11,7 +11,7 @@ header:
   overlay_image:           "assets/hero-img/posts/architecture.jpg"
 ---
 
-习题出自《汇编语言（第4版）》王爽著 清华大学出版社出版 第八章实验7：寻址方式在结构化数据访问中的应用。使用8086CPU指令。
+习题出自《汇编语言（第4版）》王爽著 清华大学出版社出版 第八章 实验7：寻址方式在结构化数据访问中的应用。使用8086CPU指令。
 
 ## 题目
 
@@ -213,7 +213,7 @@ div byte ptr [bx + si + 8]  ; ds:[bx + si + 8]
 div word ptr [bx + si + 8]  ; ds:[bx + si + 8]
 ```
 
-<p><b>1. mul指令</b></p>
+<p><b>2. mul指令</b></p>
 
 | 乘数 | 被乘数 | 积 |
 | :---: | :---: | :---: |
