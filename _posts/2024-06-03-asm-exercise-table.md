@@ -2,6 +2,7 @@
 title:            "「习题」- 使用汇编处理表格"
 author:           "wuhulamb"
 date:             "2024-06-03 22:30:00 +0800"
+last_modified_at: "2024-06-04 10:40:00 +0800"
 categories:
   - "理论学习"
 tags:
@@ -59,7 +60,7 @@ table ends
 
 ## 分析
 
-> 作者写这题时因为还不知道cal和ret指令，不会函数编程，只知道loop循环和使用栈临时保存数据。哈哈，所以很适合初学者看。
+> 作者写这题时还不知道call和ret指令，不会函数编程，只知道loop循环和使用栈临时保存数据，所以代码看上去有点繁琐，但是用到的指令很简单。
 
 <p><b>1. 要求</b></p>
 
@@ -97,7 +98,7 @@ table segment
   db 21 dup ('year summ ne ?? ')
 table ends
 
-stack segment           ; ('year','summ','ne','??','cx','dt','tb') 共18 byte
+stack segment         ; ('year','summ','ne','??','cx','dt','tb') 共18 byte
  db 18 dup ('x')
 stack ends
 
@@ -126,16 +127,14 @@ start: mov ax,stack   ; stack初始化
 
        mov si,4          ; year数据填入栈中
        mov cx,2
-   s0: sub si,2
-       mov ax,bx         ; 临时保存bx值（data索引）
-       add bx,bx         ; bx乘2，适配year索引
+       add bx,bx         ; bx乘2，适配year索引（后面用不到data了，所以不用管bx）
+   s0: sub si,2   
        push [bx + si]
-       mov bx,ax
        loop s0
 
        mov ax,table      ; table初始化
        mov ds,ax
-       mov bx,ss:[16]    ; bx用作定位table的行
+       mov bx,ss:[16]    ; 从栈中取table索引赋值给bx
 
        mov di,0          ; year出栈填入table
        mov cx,2
