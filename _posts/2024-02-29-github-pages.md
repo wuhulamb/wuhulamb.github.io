@@ -5,7 +5,7 @@ date:             "2024-02-29 16:40:00 +0800"
 categories:
   - "技术应用"
 tags:
-  - "github pages"
+  - "GitHub Pages"
 ---
 
 ## 它能做什么
@@ -14,9 +14,9 @@ tags:
 
 ## 为什么可以
 
-它默认使用[jekyll](https://jekyllrb.com/)[^1]作为static site generator来将仓库中的HTML, CSS, and JavaScript等静态文件转化成_site文件夹（我们不可见）下的站点文件（其实就是html）。我们访问<!--more-->网址时，它将对应的文件发给浏览器，然后浏览器进行渲染就成了最后看到的网页。
+它默认使用[jekyll](https://jekyllrb.com/)作为static site generator来将仓库中的 `HTML` , `CSS` , `JavaScript` 等静态文件转化成 `_site` 文件夹下的站点文件。我们访问<!--more-->网址时，它将对应的文件发给浏览器，然后浏览器进行渲染就成了最后看到的网页。
 
-除了使用默认的jekyll，我们还可以通过自定义GitHub Actions workflow来创建一个build process（有待进一步探索:eyes:
+除了使用默认的jekyll，我们还可以通过自定义GitHub Actions workflow来创建一个build process（有待进一步探索 :eyes:
 
 这里有更详细的介绍:point_right:[官方文档](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
 
@@ -63,7 +63,3 @@ html示例
 https://xxx.github.io/
 
 示例：[https://wuhulamb.github.io/test/](https://wuhulamb.github.io/test/)
-
----
-
-[^1]: jekyll是一个转换工具，可以将plain text转换成blog site。github的仓库自带此功能，只需按照要求放入相关文件即可。

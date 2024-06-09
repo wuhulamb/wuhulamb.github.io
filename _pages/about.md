@@ -6,7 +6,7 @@ header:
   overlay_image:           "/assets/hero-img/about-luffy.jpg"
 ---
 
-就读于兰州大学人文地理与城乡规划专业的大三本科生，喜欢一切有意思 and 有挑战的事情，包括但不限于编程。
+就读于兰州大学人文地理与城乡规划专业的大三本科生，喜欢一切有意思 and 有挑战的事情。
 
 ## Projects
 
@@ -24,7 +24,7 @@ header:
 
 - **教务系统日常到课率数据处理程序（2023.10 - 2023.11）**
 
-  使用Python编写[到课率处理程序](https://wuhulamb.github.io/blog/2023/11/02/Data-Process-by-Python.html/)，使得每日整理数据的时间由1小时减少至10分钟，极大地提升了处理效率
+  使用Python编写[到课率处理程序]({{ 'blog/2023/11/02/Data-Process-by-Python/' | relative_url }})，使每日整理数据的时间由1小时减少至10分钟
 
 ## Skills
 

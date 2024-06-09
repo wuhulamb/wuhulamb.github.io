@@ -7,7 +7,7 @@ categories:
   - "理论学习"
 tags:
   - "website"
-  - "github pages"
+  - "GitHub Pages"
 header:
   overlay_image:           "assets/hero-img/posts/mountain.jpg"
 ---
