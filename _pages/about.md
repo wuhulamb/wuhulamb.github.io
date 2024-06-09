@@ -6,7 +6,7 @@ header:
   overlay_image:           "/assets/hero-img/about-luffy.jpg"
 ---
 
-就读于兰州大学人文地理与城乡规划专业的大三本科生，喜欢一切有意思 and 有挑战的事情，包括但不限于编程。
+就读于兰州大学人文地理与城乡规划专业的大三本科生，喜欢一切有意思 and 有挑战的事情。
 
 ## Projects
 
