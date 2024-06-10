@@ -18,7 +18,7 @@ tags:
 
 除了使用默认的jekyll，我们还可以通过自定义GitHub Actions workflow来创建一个build process（有待进一步探索 :eyes:
 
-这里有更详细的介绍:point_right:[官方文档](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
+这里有更详细的介绍 :point_right: [官方文档](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
 
 ## 开始搭建自己的网站！
 
