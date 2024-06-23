@@ -6,7 +6,7 @@ header:
   overlay_image:           "/assets/hero-img/about-luffy.jpg"
 ---
 
-就读于L 校人文地理与城乡规划专业的大三本科生，喜欢一切有意思 & 有挑战的事情。
+就读于 L 校人文地理与城乡规划专业的大三本科生，喜欢一切有意思 & 有挑战的事情。
 
 ## Projects
 
