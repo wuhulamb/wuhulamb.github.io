@@ -6,7 +6,8 @@ categories:
   - "技术应用"
 tags:
   - "高德API"
-  - "python"
+  - "数据爬取"
+  - "Python"
 header:
   overlay_image:           "assets/hero-img/posts/world-data.jpg"
 ---

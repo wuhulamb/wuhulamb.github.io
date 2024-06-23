@@ -7,7 +7,7 @@ categories:
   - "教务处勤工助学"
 tags:
   - "work"
-  - "python"
+  - "Python"
 header:
   overlay_image:           "assets/hero-img/posts/city-night.jpg"
 ---
