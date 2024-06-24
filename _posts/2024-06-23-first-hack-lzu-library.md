@@ -1,5 +1,5 @@
 ---
-title:            "L 校师生校园卡号泄露风波"
+title:            "L 校师生校园卡号泄露隐患"
 author:           "wuhulamb"
 date:             "2024-06-23 20:30:00 +0800"
 categories:
