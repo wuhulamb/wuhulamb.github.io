@@ -1,7 +1,8 @@
 ---
-title:            "L 校师生校园卡号泄露隐患"
+title:            "L 校师生校园卡号泄露安全隐患"
 author:           "wuhulamb"
 date:             "2024-06-23 20:30:00 +0800"
+last_modified_at: "2024-06-25 17:10:00 +0800"
 categories:
   - "Hack"
 tags:
@@ -11,7 +12,14 @@ header:
   overlay_image:   "assets/hero-img/posts/hacker-matrix.jpg"
 ---
 
-> 本文旨在说明作为网管如何保证网络服务的安全，而无意引导大家去做不好的事情，正如网络渗透测试其实也是计算机系统入侵，区别在于目的和动机。
+> 本文旨在说明作为网管如何保证网络服务的安全，而无意引导各位去做不好的事情，正如网络渗透测试其实也是计算机系统入侵，区别在于目的和动机。
+
+**Note**: 已联系相关老师处理
+{: .notice--info}
+
+<figure class="align-center">
+  <img src="{{ 'media/image/2024/06/email.png' | relative_url }}" alt="email.png">
+</figure>
 
 ## 背景
 
