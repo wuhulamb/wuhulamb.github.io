@@ -4,6 +4,10 @@ author:           "wuhulamb"
 date:             "2024-06-15 21:00:00 +0800"
 header:
   overlay_image:  "assets/hero-img/excerpts/mountains-sunset.jpg"
+tags:
+  - "鲁迅"
+  - "作者"
+  - "life"
 ---
 
 我在年青时候也曾经做过许多梦，后来大半忘却了，但自己也并不以为可惜。所谓回忆者，虽说可以使人欢欣，有时也不免使人寂寞，使精神的丝缕还牵着已逝的寂寞的时光，又有什么意味呢，而我偏苦于不能全忘却，这不能全忘的一部分，到现在便成了《呐喊》的来由<!--more-->。

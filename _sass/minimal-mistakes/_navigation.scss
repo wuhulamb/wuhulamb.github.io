@@ -90,7 +90,7 @@
       &.current,
       &.current.disabled {
         color: #fff;
-        background: $primary-color;
+        background: #0092ca;
       }
 
       &.disabled {
@@ -133,7 +133,7 @@
     border-radius: $border-radius;
 
     &:hover {
-      @include yiq-contrasted($muted-text-color);
+      @include yiq-contrasted(#0092ca);
     }
 
     &:first-child {

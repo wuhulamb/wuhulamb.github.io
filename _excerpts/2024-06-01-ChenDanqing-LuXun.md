@@ -4,6 +4,8 @@ author:           "wuhulamb"
 date:             "2024-06-01 17:10:00 +0800"
 header:
   overlay_image:  "assets/hero-img/excerpts/boat-dusk.jpg"
+tags:
+  - "鲁迅"
 ---
 
 今天在鲁迅博物馆讲话，心里紧张——老先生就住在隔壁，讲到一半，他要是走进来怎么办？其实，我非常巴望老先生真的会走进来，因为我们根本休想见到鲁迅先生了。

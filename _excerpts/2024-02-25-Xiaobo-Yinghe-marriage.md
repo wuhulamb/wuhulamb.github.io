@@ -4,6 +4,9 @@ author:           "wuhulamb"
 date:             "2024-02-25 10:10:00 +0800"
 header:
   overlay_image:  "assets/hero-img/posts/street-night.jpg"
+tags:
+  - "爱情"
+  - "life"
 ---
 
 你好，李银河！
