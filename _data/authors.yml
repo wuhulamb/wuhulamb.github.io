@@ -1,0 +1,14 @@
+# Authors
+
+wuhulamb:
+  name        : "wuhulamb"
+  bio         : "Viva La Vida!"
+  avatar      : "media/favicon/android-chrome-192x192.jpg"
+  location    : "Wuhu, Anhui"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:wuhulamb@163.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wuhulamb"

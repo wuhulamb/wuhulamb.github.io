@@ -1,0 +1,35 @@
+# main links
+main:
+  - title: "Blog"
+    url: /blog/
+  - title: "Read"
+    url: /read/
+  - title: "Motto"
+    url: /motto/
+  - title: "About"
+    url: /about/
+
+web:
+  - title: "navigation"
+    children:
+      - title: "Blog"
+        icon: "fas fa-fw fa-book"
+        url: /blog/
+      - title: "Categories"
+        icon: "fas fa-fw fa-folder-open"
+        url: /categories/
+      - title: "Tags"
+        icon: "fas fa-fw fa-tags"
+        url: /tags/
+      - title: "Archives"
+        icon: "fas fa-fw fa-window-restore"
+        url: /archives/
+
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

@@ -1,0 +1,53 @@
+---
+layout: splash
+author_profile: false
+sidebar:
+  nav: false
+excerpt: "Adventurer, troublemaker, hacker"
+header:
+  overlay_image:  /assets/hero-img/sea-and-cloud.jpg
+  show_overlay_excerpt:    true
+  actions:
+    - label: "Blog"
+      url: /blog/
+      my-i: "fas fa-book"
+    - label: "Github"
+      url: "https://github.com/wuhulamb"
+      my-i: "fab fa-github"
+    - label: "About"
+      url: /about/
+      my-i: "fas fa-user-circle"
+my-attachment: fixed
+my-padding: "3em 0"
+my-height: 100vh
+my-avatar: "/media/favicon/android-chrome-512x512.jpg"
+my-title-size: 2em
+my-wrapper-padding-top: 50%
+---
+{% assign p_counter = 0 %}
+{% for p in site.posts %}
+  {% assign p_counter = p_counter | plus: 1 %}
+{% endfor %}
+
+{% assign e_counter = 0 %}
+{% for e in site.excerpts %}
+  {% assign e_counter = e_counter | plus: 1 %}
+{% endfor %}
+
+<p class="notice--info"><strong>Note:</strong> 下面两个链接均可访问，选择响应速度较快的网站访问！ :stuck_out_tongue_winking_eye:</p>
+<ul>
+  <li><a href="https://wuhulamb.github.io/">https://wuhulamb.github.io/</a></li>
+  <li><a href="https://wuhulamb.pages.dev/">https://wuhulamb.pages.dev/</a></li>
+</ul>
+
+<p style="line-height: 0.5em;">&nbsp;</p>
+
+<p><b>统计：</b> Blog: <code class="language-plaintext highlighter-rouge">{{ p_counter }}篇</code>， Read: <code class="language-plaintext highlighter-rouge">{{ e_counter }}篇</code>， 最近更新: <code class="language-plaintext highlighter-rouge">{{ site.time | date: "%Y-%m-%d, %r" }}</code></p>
+
+<h2 align="left">推荐阅读：</h2>
+<ul>
+  <li><a href="{{ 'blog/2024/06/23/first-hack-lzu-library/' | relative_url }}">L 校师生校园卡号存在泄露隐患</a></li>
+  <li><a href="{{ 'blog/2024/02/05/The-Feynman-Technique/' | relative_url }}">译：费曼学习法</a></li>
+  <li><a href="{{ 'read/2024/02/25/Nietzsche-lookThisMan-wise/' | relative_url }}">尼采 -《瞧，这个人》-「我何以如此明智（节选）」</a></li>
+</ul>
+

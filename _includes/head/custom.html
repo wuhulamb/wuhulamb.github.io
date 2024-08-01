@@ -1,0 +1,34 @@
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="/media/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/media/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/media/favicon/favicon-16x16.png">
+<link rel="manifest" href="/media/favicon/site.webmanifest">
+<link rel="mask-icon" href="/media/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/media/favicon/favicon.ico">
+
+<!-- insert MathJax -->
+{% if page.mathjax %}
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    }
+  };
+</script>
+{% endif %}
+
+{% if page.my-paragraph %}
+<style>
+  .page__content p {
+    margin: 0 0;
+    text-indent: 2em;
+    line-height: 2;
+  }
+</style>
+{% endif %}
+
+<!-- end custom head snippets -->
