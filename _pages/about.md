@@ -6,13 +6,13 @@ header:
   overlay_image:           "/assets/hero-img/about-luffy.jpg"
 ---
 
-就读于 L 校人文地理与城乡规划专业的大四本科生，酷爱计算机，喜欢一切有意思 & 有挑战的事情；沉迷文学和哲学，折服于文字的美丽和思考的深度；热爱生命，并将其作为自己的信仰。
+就读于 L 校人文地理与城乡规划专业的大四本科生，做网站一是想分享，二是装十三。头像是动漫[海贼王](https://baike.baidu.com/item/%E8%88%AA%E6%B5%B7%E7%8E%8B/75861)中的路飞，喜欢电影[Pirates of the Caribbean](https://www.imdb.com/list/ls023657263/)，喜欢B站[星有野](https://space.bilibili.com/627888730)的搞笑短视频。
 
 本博客主要由以下三个部分组成：
 
-- [Blog]({{ 'blog/' | relative_url }}) —— 主要记录分享一些所学所想所感，以及一些小项目的具体完成过程
-- [Read]({{ 'read/' | relative_url }}) —— 主要分享一些读到的颇有感触的文字，通常都是偏文学或者偏哲学
-- [Motto]({{ 'motto/' | relative_url }}) —— 主要摘录一些短而有力的文字，来源不全出自名人之口，重在内容
+- [Blog]({{ 'blog/' | relative_url }}) —— 记录所学所思所感
+- [Read]({{ 'read/' | relative_url }}) —— 分享喜欢的文章
+- [Motto]({{ 'motto/' | relative_url }}) —— 摘录短而有力的文字
 
 ## Projects
 

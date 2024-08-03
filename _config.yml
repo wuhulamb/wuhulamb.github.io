@@ -141,7 +141,8 @@ exclude:
   - assets/js/vendor
   - config
   - Gemfile
-  - README
+  - README.md
+  - push.sh
 
 keep_files:
   - .git
