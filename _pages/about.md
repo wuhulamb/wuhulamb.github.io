@@ -6,7 +6,7 @@ header:
   overlay_image:           "/assets/hero-img/about-luffy.jpg"
 ---
 
-就读于 L 校人文地理与城乡规划专业的大四本科生，做网站一是想分享，二是装十三。头像是动漫[海贼王](https://baike.baidu.com/item/%E8%88%AA%E6%B5%B7%E7%8E%8B/75861)中的路飞，喜欢电影[Pirates of the Caribbean](https://www.imdb.com/list/ls023657263/)，喜欢B站[星有野](https://space.bilibili.com/627888730)的搞笑短视频。
+就读于 L 校人文地理与城乡规划专业的大四本科生，做网站一是想分享，二是装十三。头像是动漫[*海贼王*](https://baike.baidu.com/item/%E8%88%AA%E6%B5%B7%E7%8E%8B/75861)中的路飞，喜欢电影[*Pirates of the Caribbean*](https://www.imdb.com/list/ls023657263/)，喜欢B站[星有野](https://space.bilibili.com/627888730)的搞笑短视频。
 
 本博客主要由以下三个部分组成：
 
