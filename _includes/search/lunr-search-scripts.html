@@ -5,6 +5,19 @@
 {% else %}
   {% assign lang = "en" %}
 {% endcase %}
-<script src="{{ '/assets/js/lunr/lunr.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/lunr/lunr-store.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/lunr/lunr-' | append: lang | append: '.js' | relative_url }}"></script>
+<script>
+  const lunr_button = document.querySelector('.search__toggle');
+  const lunr_scripts = [
+    "{{ '/assets/js/lunr/lunr.min.js' | relative_url }}",
+    "{{ '/assets/js/lunr/lunr-store.js' | relative_url }}",
+    "{{ '/assets/js/lunr/lunr-' | append: lang | append: '.js' | relative_url }}",
+  ];
+
+  lunr_button.addEventListener('click', () => {
+    lunr_scripts.forEach(script => {
+      const scriptElement = document.createElement('script');
+      scriptElement.src = script;
+      document.body.appendChild(scriptElement);
+    });
+  });
+</script>
