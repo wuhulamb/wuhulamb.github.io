@@ -20,15 +20,14 @@
 
       // 监听第一个JS文件加载完成
       script1.onload = () => {
-        const lunr_scripts = [
-          "{{ '/assets/js/lunr/lunr.min.js' | relative_url }}",
-          "{{ '/assets/js/lunr/lunr-' | append: lang | append: '.js' | relative_url }}",
-        ];
-        lunr_scripts.forEach(script => {
-          const scriptElement = document.createElement('script');
-          scriptElement.src = script;
-          document.body.appendChild(scriptElement);
-        });
+        const script2 = document.createElement('script');
+        script2.src = "{{ '/assets/js/lunr/lunr.min.js' | relative_url }}";
+        document.body.appendChild(script2);
+        script2.onload = () => {
+          const script3 = document.createElement('script');
+          script3.src = "{{ '/assets/js/lunr/lunr-' | append: lang | append: '.js' | relative_url }}";
+          document.body.appendChild(script3);
+	};
       };
       inputElement.placeholder = 'You can search now !';
       jsFilesLoaded = true;
