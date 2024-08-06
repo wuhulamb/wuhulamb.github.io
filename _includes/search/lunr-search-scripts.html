@@ -6,25 +6,32 @@
   {% assign lang = "en" %}
 {% endcase %}
 <script>
+  let jsFilesLoaded = false;
   const lunr_button = document.querySelector('.search__toggle');
 
   lunr_button.addEventListener('click', () => {
-    // 加载第一个JS文件
-    const script1 = document.createElement('script');
-    script1.src = "{{ '/assets/js/lunr/lunr-store.js' | relative_url }}";
-    document.body.appendChild(script1);
+    if (!jsFilesLoaded) {
+      const inputElement = document.querySelector('.search-input');
+      inputElement.placeholder = 'Wait a minute ...'; 
+      // 加载第一个JS文件
+      const script1 = document.createElement('script');
+      script1.src = "{{ '/assets/js/lunr/lunr-store.js' | relative_url }}";
+      document.body.appendChild(script1);
 
-    // 监听第一个JS文件加载完成
-    script1.onload = () => {
-      const lunr_scripts = [
-        "{{ '/assets/js/lunr/lunr.min.js' | relative_url }}",
-        "{{ '/assets/js/lunr/lunr-' | append: lang | append: '.js' | relative_url }}",
-      ];
-      lunr_scripts.forEach(script => {
-        const scriptElement = document.createElement('script');
-        scriptElement.src = script;
-        document.body.appendChild(scriptElement);
-      });
-    };
+      // 监听第一个JS文件加载完成
+      script1.onload = () => {
+        const lunr_scripts = [
+          "{{ '/assets/js/lunr/lunr.min.js' | relative_url }}",
+          "{{ '/assets/js/lunr/lunr-' | append: lang | append: '.js' | relative_url }}",
+        ];
+        lunr_scripts.forEach(script => {
+          const scriptElement = document.createElement('script');
+          scriptElement.src = script;
+          document.body.appendChild(scriptElement);
+        });
+      };
+      inputElement.placeholder = 'You can search now !';
+      jsFilesLoaded = true;
+    }
   });
 </script>
