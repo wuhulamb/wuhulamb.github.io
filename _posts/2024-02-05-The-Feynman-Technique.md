@@ -124,17 +124,30 @@ tags:
 
 ### 引用[^4]
 
-- 理查德·费曼 @ 维基百科 [https://en.wikipedia.org/wiki/Richard_Feynman](https://en.wikipedia.org/wiki/Richard_Feynman)
-- 费曼物理学讲义 [https://www.feynmanlectures.caltech.edu/](https://www.feynmanlectures.caltech.edu/)
-- 书：《费曼失落的讲义：行星围绕太阳的运动》 [https://book.douban.com/subject/36327413/](https://book.douban.com/subject/36327413/)
-- 书：《费曼传》 [https://book.douban.com/subject/1077935/](https://book.douban.com/subject/1077935/)
-- 理查德·费曼，伟大讲师：[https://www.youtube.com/watch?v=JIJw3OLB9sI](https://www.youtube.com/watch?v=JIJw3OLB9sI)
-- 从费曼学习法中学到的：[https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230](https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230)
-- 费曼学习法：[https://golden.com/wiki/Feynman_Technique](https://golden.com/wiki/Feynman_Technique)
-- 费曼学习法：[https://www.youtube.com/watch?v=tkm0TNFzIeg](https://www.youtube.com/watch?v=tkm0TNFzIeg)
-- 如何使用“伟大讲师”法学习：[https://aliabdaal.com/feynman-technique/](https://aliabdaal.com/feynman-technique/)
-- 如何使用费曼学习法快速学习任何东西：[https://www.linkedin.com/pulse/20141024121647-107244930-how-to-learn-anything-faster-with-the-feynman-technique/](https://www.linkedin.com/pulse/20141024121647-107244930-how-to-learn-anything-faster-with-the-feynman-technique/)
-- 如何使用费曼学习法更快学习（包含示例）：[https://www.youtube.com/watch?v=_f-qkGJBPts](https://www.youtube.com/watch?v=_f-qkGJBPts)
+<ul style="word-break: break-word;">
+  <li>理查德·费曼 @ 维基百科 <a href="https://en.wikipedia.org/wiki/Richard_Feynman">https://en.wikipedia.org/wiki/Richard_Feynman</a>
+</li>
+  <li>费曼物理学讲义 <a href="https://www.feynmanlectures.caltech.edu/">https://www.feynmanlectures.caltech.edu/</a>
+</li>
+  <li>书：《费曼失落的讲义：行星围绕太阳的运动》 <a href="https://book.douban.com/subject/36327413/">https://book.douban.com/subject/36327413/</a>
+</li>
+  <li>书：《费曼传》 <a href="https://book.douban.com/subject/1077935/">https://book.douban.com/subject/1077935/</a>
+</li>
+  <li>理查德·费曼，伟大讲师：<a href="https://www.youtube.com/watch?v=JIJw3OLB9sI">https://www.youtube.com/watch?v=JIJw3OLB9sI</a>
+</li>
+  <li>从费曼学习法中学到的：<a href="https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230">https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230</a>
+</li>
+  <li>费曼学习法：<a href="https://golden.com/wiki/Feynman_Technique">https://golden.com/wiki/Feynman_Technique</a>
+</li>
+  <li>费曼学习法：<a href="https://www.youtube.com/watch?v=tkm0TNFzIeg">https://www.youtube.com/watch?v=tkm0TNFzIeg</a>
+</li>
+  <li>如何使用“伟大讲师”法学习：<a href="https://aliabdaal.com/feynman-technique/">https://aliabdaal.com/feynman-technique/</a>
+</li>
+  <li>如何使用费曼学习法快速学习任何东西：<a href="https://www.linkedin.com/pulse/20141024121647-107244930-how-to-learn-anything-faster-with-the-feynman-technique/">https://www.linkedin.com/pulse/20141024121647-107244930-how-to-learn-anything-faster-with-the-feynman-technique/</a>
+</li>
+  <li>如何使用费曼学习法更快学习（包含示例）：<a href="https://www.youtube.com/watch?v=_f-qkGJBPts">https://www.youtube.com/watch?v=_f-qkGJBPts</a>
+</li>
+</ul>
 
 ## 随笔
 
