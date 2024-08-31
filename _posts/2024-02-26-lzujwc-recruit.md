@@ -5,6 +5,7 @@ date:             "2024-02-26 14:30:00 +0800"
 categories:
   - "Work"
 tags:
+  - "L 校"
   - "教务处勤工助学"
 header:
   overlay_image:           "assets/hero-img/posts/carton-rocks.jpg"

@@ -6,8 +6,9 @@ last_modified_at: "2024-04-27 14:00:00 +0800"
 categories:
   - "技术应用"
 tags:
-  - "教务处勤工助学"
   - "Python"
+  - "L 校"
+  - "教务处勤工助学"
 header:
   overlay_image:           "assets/hero-img/posts/city-night.jpg"
 ---
