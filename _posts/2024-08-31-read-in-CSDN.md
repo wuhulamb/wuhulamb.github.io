@@ -71,7 +71,7 @@ header:
 
 <figure class="align-center">
   <img src="{{ 'media/image/2024/08/del-height2000.jpg' | relative_url }}" alt="del-height2000.jpg">
-  <figcaption>删除 height: 2000px（双击鼠标左键也可以编辑）</figcaption>
+  <figcaption>删除 height: 2000px;（双击鼠标左键也可以编辑）</figcaption>
 </figure>
 
 ## 为什么不直接使用Edge的阅读器模式
