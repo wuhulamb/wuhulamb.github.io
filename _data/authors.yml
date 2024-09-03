@@ -4,8 +4,10 @@ wuhulamb:
   name        : "wuhulamb"
   bio         : "Viva La Vida!"
   avatar      : "media/favicon/android-chrome-192x192.jpg"
-  location    : "Wuhu, Anhui"
   links:
+    - label: "Wuhu, Anhui"
+      icon: "fas fa-fw fa-map-marker-alt"
+      url: "https://mp.weixin.qq.com/s/eYs1IMk3_38PkzpEAyDwhg"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:wuhulamb@163.com"
