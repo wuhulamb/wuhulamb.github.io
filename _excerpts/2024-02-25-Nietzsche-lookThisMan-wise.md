@@ -5,7 +5,7 @@ date:             "2024-02-25 09:30:00 +0800"
 header:
   overlay_image:  "assets/hero-img/excerpts/life.jpg"
 tags:
-  - "作者"
+  - "尼采"
   - "life"
 ---
 
